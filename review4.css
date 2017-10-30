@@ -1,0 +1,229 @@
+.review_scores {
+    background:#ffffff;
+    text-align:center;
+    min-width:310px;
+}
+
+.review_scores:hover
+{
+    box-shadow: 1px 3px 10px 1.5px #dddddd;
+    transform: translate(0,-3px);
+    /*box-shadow:15px 0px 25px -10px #dddddd;
+    transition: 0.3s;*/
+}
+
+.review_scores
+{
+  	box-shadow: 0px 0.5px 2px 0.5px #dddddd;
+    transition: 0.3s;
+}
+
+.review_scores .wp-review-star-type .review-star .mts-icon-star::before {
+  content:"\25AE";
+  text-shadow: #b22a2a 0px 0px 1px, #b22a2a 0px 0px 1px, #b22a2a 0px 0px 1px, #b22a2a 0px 0px 1px, #b22a2a 0px 0px 1px, #b22a2a 0px 0px 1px;
+  opacity:1;
+  margin-left:0px !important;
+}
+
+.review_scores .wp-review-star-type .review-result-wrapper .review-result i {
+    opacity: 1;
+    color: #b22a2a;
+    filter: alpha(opacity=100);
+}
+
+.review_scores .wp-review-star-type .review-result-wrapper i {
+    opacity: 1;
+    color: white;
+}
+
+.review_scores .wp-review-star-type .review-list li,
+.review_scores .wp-review-star-type .review-list li:nth-child(2n+1) {
+  background: #ffffff !important;
+  border:none;
+  list-style:none;
+  min-width:250px;
+  width:45%;
+  text-align:justify;
+  display:inline-block;
+  padding-top:0px;
+  padding-bottom:10px;
+}
+
+.review_scores .wp-review-star-type .review-list li(2n+1) {
+  padding-right:10px
+  padding-left:0px
+}
+
+.review_scores .wp-review-star-type .review-list li(2n) {
+  padding-right:0px
+  padding-left:10px
+}
+
+.review_scores .wp-review-star-type .review-list {
+  font-weight:bold;
+  text-align:center;
+}
+
+.review_scores .wp-review-star-type .review-star {
+  /*High z-index needed or else review score boxes are blurry*/
+  z-index:99;
+  top:-5px;
+}
+
+.review_scores .review_widget {
+    width: 45% !important;
+    min-width: 310px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border:none;
+    bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    background: #ffffff;
+    margin-right: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.review_scores .review_widget .wp-review-star-type {
+  border:none;
+  float:none;
+  margin-bottom:10px;
+}
+
+.review_scores .game_logo
+{
+    width: 45%;
+    min-width: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    border:none;
+    margin-right: 0px;
+    vertical-align: top;
+    background:#ffffff;
+	display: inline-flex;
+    align-items: center;
+    height: 228px;
+    justify-content: center;
+}
+
+.review_scores .game_info {
+ 	min-width: 310px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #b22a2a;
+    text-align: center;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.review_scores .game_info .game_platform,
+.review_scores .game_info .game_length,
+.review_scores .game_info .game_difficulty {
+  display:inline-block;
+  font-weight:bold;
+  color:#b22a2a;
+}
+
+.review_scores .game_info .game_platform,
+.review_scores .game_info .game_length {
+  border-right:3px;
+  border-style:solid;
+}
+
+.review_scores .game_info .game_platform {
+  width:20%;
+}
+
+.review_scores .game_info .game_length {
+  min-width:130px;
+  width:40%;
+}
+
+.review_scores .game_info .game_length:before {
+  font-size:17px;
+  content:"\29D7";
+  margin-right:5px;
+}
+ 
+.review_scores .game_info .game_difficulty {
+  width:30%;
+}
+
+.review_scores .game_info .game_difficulty:before {
+  font-size:17px;
+  content:"\2694";
+  margin-right:5px;
+}
+
+.review_scores .overall_score
+{
+    width:100%;
+    min-width:310px;
+    padding-top:5px;
+    background:#eeeeee;
+    text-align:center;
+    border-top:1px;
+    border-bottom:1px;
+    border-style:solid;
+    border-color:#b22a2a;
+}
+
+
+.review_scores .pros_cons
+{
+    width: 100%;
+    margin-top:0px;
+    margin-bottom:0px;
+	padding:0px;
+    border:none;
+    background: #555555;
+    text-align:center;
+    clear:both;
+    color:#cccccc;
+}
+
+.review_scores .pros_cons .pros,
+.review_scores .pros_cons .cons {
+  width: 45%;
+  display: inline-block;
+  text-align:justify;
+  vertical-align:top;
+  min-width:250px;
+}
+.review_scores .pros_cons .pros pre,
+.review_scores .pros_cons .cons pre {
+  background: #555555;
+  margin:0px;
+  border:none;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  padding-bottom:0px;
+}
+
+.review_scores .pros_cons .pros pre p:before {
+  content: "\271A";
+  font-style: normal;
+  margin-right:15px;
+  margin-left: -29px;
+}
+
+.review_scores .pros_cons .cons pre p:before {
+  content: "\25AC";
+  font-style: normal;
+  margin-right:15px;
+  margin-left:-29px;
+}
+
+.review_scores .pros_cons .cons pre p,
+.review_scores .pros_cons .pros pre p
+{
+  padding-left: 15px;
+  margin-left: -15px;
+  left: 15px;
+  position: relative;
+  margin-bottom: -5px;
+}
