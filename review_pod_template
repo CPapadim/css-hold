@@ -1,0 +1,14 @@
+<div class="review_scores">
+	<div class="game_logo">{@game_logo._img}</div>
+	<div class="review_widget">{@review_widget_shortcode}</div>
+	<div class="overall_score">{@overall_score.overall_score._img}</div>
+	<div class="game_info">
+		<div class="game_platform">{@platform}</div>
+		<div class="game_length">{@game_length}</div>
+		<div class="game_difficulty">{@difficulty}</div>
+	</div>
+	<div class="pros_cons">
+		<div class="pros"><pre>{@pros}</pre></div>
+		<div class="cons"><pre>{@cons}</pre></div>
+	</div>
+</div>
